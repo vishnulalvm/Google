@@ -1,0 +1,306 @@
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    justify-content: left;
+    
+   ;
+
+}
+.header img{
+    margin-left: 15px;
+
+}
+.header div{
+    padding: 10px 15px 10px 15px ;
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: rgb(102, 101, 101);
+    cursor: pointer;
+
+   
+}
+.pages-name{
+    margin-left: 15px;
+    display: flex;
+    width: 600px;
+    
+}
+
+.pages-name div:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+.page-content{
+   margin-top: 55px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   
+
+}
+
+.first-content{
+    width: 780px;
+    height: 72px;
+    font-size: 29px;
+    font-family: Roboto,arial;
+    line-height: 40px;
+    text-align: center;
+    
+   
+}
+.second-content{
+   
+    margin-top: 50px;
+}
+.second-content video{
+    width: 780px;
+    height: 500px;
+    margin-top: 25px;
+    align-items: center;
+}
+.thrid-content{
+    font-size: 35px;
+    font-family: Roboto,arial;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forth-content{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    color: rgb(45, 90, 240);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    margin-bottom: 100px;
+    font-weight: 600;
+    
+
+
+}
+.forth-content:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.fifth-content{
+    font-size: 55px;
+    font-family: Roboto,arial;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(29, 29, 29);
+}
+
+.sixth-content{
+    display: flex;
+    flex-direction: row;
+    width: 510px;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.button-one{
+    background-color: rgb(60, 147, 228);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-two{
+    
+    
+    font-size: 18px;
+    font-weight: 500;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(33, 189, 241);
+   border: 1px solid;
+    border-color: rgb(216, 212, 212);
+    margin-left: 10px;
+    cursor: pointer;
+
+    
+    
+    
+}
+.second-content{
+    margin-bottom: 50px;
+}
+.seventh-content img{
+    width: 1000px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+.discover{
+    font-size: 29px;
+    font-family: Roboto,arial;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: rgb(29, 29, 29);
+}
+
+.eight-content{
+    font-size: 55px;
+    font-family: Roboto,arial;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.eight-button{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(60, 147, 228);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    font-family: Roboto,Arial;
+    cursor: pointer;
+}
+.nine-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.imag-one img{
+    width: 370px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.img-two img{
+    width: 370px;
+    height: 380px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+.img-third img{
+    width: 370px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.subtitle{
+    font-size: 28px;
+    color: rgb(29, 29, 29);
+    font-style: normal;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 15px;
+}
+.learn{
+    color: blue;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ten-content{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.imag-four img{
+    width: 370px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.img-five img{
+    width: 370px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+
+.eleven-content{
+    font-size: 60px;
+    font-family: Roboto,arial;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+.eleven-button{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(60, 147, 228);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    font-family: Roboto,Arial;
+    cursor: pointer;
+}
+
+.twelve-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.imag-six img{
+    width: 260px;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.img-seven img{
+    width: 260px;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+
+}
+.img-eight img{
+    width: 260px;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.img-nine img{
+    width: 260px;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
